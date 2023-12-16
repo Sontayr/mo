@@ -1,0 +1,27 @@
+/* your styles go here */
+html {
+ scroll-behavior: smooth;
+}
+
+.upward{
+ position: fixed;
+ bottom: 700px;
+ right: 40px;
+ width: 70px;
+ height: 70px;
+ z-index: 1;
+ cursor: pointer;
+ visibility: hidden;
+ opacity: 0;
+ transition: 0.5s;
+}
+
+.upward.active {
+ bottom: 40px;
+ visibility: visible;
+ opacity: 1;
+}
+
+.upward.active:hover{
+  color: #9055A2 ;
+}
